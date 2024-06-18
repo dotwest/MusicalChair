@@ -8,3 +8,4 @@ Jinja2==3.1.2
 python-multipart==0.0.6
 slack-bolt==1.17.0
 uvicorn==0.21.1
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
