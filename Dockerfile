@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:3.13.0b4-slim
 ENV PYTHONUNBUFFERED 1
 WORKDIR /src
 COPY src/requirements.txt requirements.txt
