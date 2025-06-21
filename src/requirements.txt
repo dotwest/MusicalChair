@@ -8,3 +8,5 @@ Jinja2==3.1.2
 python-multipart==0.0.6
 slack-bolt==1.17.0
 uvicorn==0.21.1
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
